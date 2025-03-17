@@ -3,8 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="pytonconnect_module",  
     version="0.1.0",
-    packages=find_packages(include=["pytonconnect", "pytonconnect.*"]),  
-    py_modules=["connector"],
+    packages=find_packages(include=["pytonconnect_module.*"]),
     install_requires=[  
         "pillow", 
         "qrcode"

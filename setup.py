@@ -6,9 +6,6 @@ setup(
     packages=find_packages(),  
     install_requires=[  
         "pillow", 
-        "httpx-sse"
-        "httpx",
-        "pynacl"
     ],
     author="ddis1004",
     description="python tonconnect module, utilizing XaBbl4/pytonconnect",

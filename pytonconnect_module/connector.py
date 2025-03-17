@@ -1,11 +1,10 @@
 import asyncio
 from datetime import datetime
-from pytonconnect import TonConnect
+from pytonconnect._ton_connect import TonConnect
 from pytonconnect.exceptions import UserRejectsError
 from pytonconnect.storage import FileStorage
 import qrcode
 from PIL import Image
-
 
 class WalletConnector:
 

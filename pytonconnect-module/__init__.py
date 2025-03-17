@@ -1,1 +1,1 @@
-from connector import WalletConnector
+from .connector import WalletConnector

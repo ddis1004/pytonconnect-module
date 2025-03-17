@@ -4,7 +4,6 @@ from pytonconnect import TonConnect
 from pytonconnect.exceptions import UserRejectsError
 from pytonconnect.storage import FileStorage
 import qrcode
-import os
 from PIL import Image
 
 

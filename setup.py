@@ -4,8 +4,10 @@ setup(
     name="pytonconnect_module",  
     version="0.1.0",
     packages=find_packages(include=["pytonconnect", "pytonconnect.*"]),  
+    py_modules=["connector"],
     install_requires=[  
         "pillow", 
+        "qrcode"
     ],
     author="ddis1004",
     description="python tonconnect module, utilizing XaBbl4/pytonconnect",

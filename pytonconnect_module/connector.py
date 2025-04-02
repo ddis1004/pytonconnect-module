@@ -50,7 +50,7 @@ class WalletConnector:
         await self.connector.disconnect()
         self.is_connected = False
 
-    async def wait_for_connection(self):
+    async def wait_for_connection(self): 
         if self.is_connected: 
             return
         await self.connector.wait_for_connection()
